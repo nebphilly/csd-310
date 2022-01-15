@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>USER
+--
+"Username"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>20</y>
+      <w>130</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>ROLES
+--
+Role 1
+Role 2
+Role 3
+Role *</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>10</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+has many
+1              *
+</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>150</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>BIRTHDAY
+--
+Birthday</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>240</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>DEPENDANTS
+--
+Dependant*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>60</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+has
+1                       1</panel_attributes>
+    <additional_attributes>170.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>60</y>
+      <w>190</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+can have
+1.1                 1.*</panel_attributes>
+    <additional_attributes>170.0;190.0;10.0;190.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
