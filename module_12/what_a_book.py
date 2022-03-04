@@ -184,6 +184,11 @@ try:
                     # get the entered book_id
                     book_id = int(
                         input("\n        Enter the id of the book you want to add: "))
+                    if book_id >= 10:
+                        print()
+                        print(
+                            "An incorrect number was entered...please try again.".upper())
+                        break
 
                     # add the selected book the users wishlist
                     add_book_to_wishlist(cursor, my_user_id, book_id)
